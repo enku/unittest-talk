@@ -1,0 +1,100 @@
+<html>
+  <head>
+    <title>Python's pickle Module</title>
+    <link rel="stylesheet" href="reveal.js/css/reveal.css">
+    <link rel="stylesheet" href="reveal.js/css/theme/league.css">
+    <link rel="stylesheet" href="reveal.js/lib/css/zenburn.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+
+        <section>
+          <h2>Testing with the unittest module</h2>
+            <h4>Albert Hopkins &lt;marduk@letterboxes.org&gt;</h4>
+            <h4>26 July 2018</h4>
+          
+          <aside class="notes">
+            <h2>Outline</h2>
+            <ol>
+              <li>What is a pickle?</li>
+              <li>Advantages and disadvantages</li>
+              <li>pickling and unpickling</li>
+              <li>Hands-On</li>
+              <li>Related modules</li>
+            </ol>
+          </aside>
+        </section>
+
+        <section>
+          <h2>Radius</h2>
+        </section>
+
+        <section>
+          <h2>Diameter</h2>
+          <h2 class="fragment fade-in">2*r</h2>
+        </section>
+
+        <section>
+          <h2>Center</h2>
+        </section>
+
+        <section>
+          <h2>Circumference</h2>
+          <h2 class="fragment fade-in">C = 2&#960;r</h2>
+        </section>
+
+        <section>
+          <h2>Area</h2>
+          <h2 class="fragment fade-in">A = &#960;r&sup2;</h2>
+        </section>
+
+        <section>
+          <h2>Intersect</h2>
+          <h2 class="fragment fade-in">(x1 - x2)&sup2; + (y1 - y2)&sup2; &#x2264; (r1 + r2)&sup2;</h2>
+        </section>
+
+        <section>
+          <h2>Inside</h2>
+          <h2 class="fragment fade-in">(x1 - x2)&sup2; + (y1 - y2)&sup2; &lt; r&sup2;</h2>
+        </section>
+
+        <section data-markdown="Notes.md"
+                 data-separator="^\n\n\n"
+                 data-separator-vertical="^\n\n"
+                 data-separator-notes="^Note:"
+                 data-charset="utf-8"
+          >
+        </section>
+
+        <section>
+          <h2>Our Implementation</h2>
+          <a href="circle.py" type="text/plain">circle.py</a>
+        </section>
+
+      </div> <!-- slides -->
+    </div> <!-- reveal -->
+    <script src="reveal.js/lib/js/head.min.js"></script>
+    <script src="reveal.js/js/reveal.js"></script>
+    <script>
+      Reveal.initialize({
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+
+          { src: 'reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+
+          { src: 'reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+
+          { src: 'reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
+
+          { src: 'reveal.js/plugin/notes/notes.js', async: true },
+
+          { src: 'reveal.js/plugin/math/math.js', async: true }
+        ]
+    });
+    </script>
+  </body>
+</html>

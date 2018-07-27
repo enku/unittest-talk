@@ -1,0 +1,12 @@
+.slide-background {
+background-color: #428bca !important;
+}
+
+.hljs {
+background-color: #1c304c;
+padding: 2ex !important;
+}
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+    text-transform: none;
+}
