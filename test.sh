@@ -1,10 +1,10 @@
 #!/bin/sh
 
-filename="$1"
+directory="$(dirname $0)"
 
 while true
 do 
     clear 
-    python "${filename}" -v --failfast 
-    inotifywait -q -e modify "${filename}"
+    python -m unittest discover "${directory}"/tests --failfast 
+    inotifywait -q -e modify "${directory}" "${directory}"/tests
 done
