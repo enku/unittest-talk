@@ -25,7 +25,7 @@ class Point:
         self.y = y
 
     def __repr__(self) -> str:
-        klass = self.__class__.__name__
+        klass = type(self).__name__
 
         return '{klass}({x!r}, {y!r})'.format(
             klass=klass,
