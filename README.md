@@ -1,7 +1,7 @@
 # Unit testing with Python
 
 This was a talk given to [The Python User Group of
-Redmond](https://www.redmondpython.com/) on 26 July 2018.
+Redmond](https://www.redmondpython.com/) on 26 July and 2 August, 2018.
 
 To view this presentation:
 [reveal.js](https://github.com/hakimel/reveal.js/) submodule:
