@@ -67,7 +67,7 @@ class CircleTests(unittest.TestCase):
         # when we test if one intersects with the other
         circles_intersect = circle1.intersects(circle2)
 
-        # then hopefully they do not
+        # then True is returned
         self.assertTrue(circles_intersect)
 
     def test_intersects_false(self):
