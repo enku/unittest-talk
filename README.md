@@ -10,7 +10,7 @@ To view this presentation:
 
 1. If cloning this repo for the first time:
    ```sh
-   $ git clone --recurse-submodules
+   $ git clone --recurse-submodules https://github.com/enku/unittest-talk
    ```
    If you already cloned but didn't use the `--recurse-submodules`:
    ```sh
